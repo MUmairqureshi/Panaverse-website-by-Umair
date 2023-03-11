@@ -7,11 +7,11 @@ export const Couredetail = () => {
 
     const toggleTab = (index : any) => {
         setToggleState(index);
-    };
+    }
 
     return (
         <div className='mx-auto px-6 mt-6 py-4  bg-white'>
-            <Script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></Script>;
+
             <div className='py-6 gap-20 grid  lg:grid-cols-3     md:grid-cols-2 mx-auto  '>
 
 
