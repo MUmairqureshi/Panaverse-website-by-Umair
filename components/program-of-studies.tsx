@@ -50,7 +50,7 @@ export const Programstudies = () => {
                     </div>
                   <div className="block md:-mt-2 mt-8  lg:-mt-2 xl:-mt-60 md:ml-20 lg:px-4  xl:ml-80 lg:ml-80  ">
                          
-                        <div className="   lg:border-none xl:border-none border rounded-lg md:border-none  lg:mt-18 lg-2:-mt-16 xl:mt-60 xl:-ml-[344px]
+                        <div className="   lg:border-none xl:border-none border rounded-lg md:border-none  lg:mt-18 lg-2:-mt-16 xl:mt-56 xl:-ml-[344px]
                          lg:-ml-72 lg:px-16 xl:px-36  xl:p-0 lg:p-0 md:max-h-none lg:max-h-none xl:max-h-none   md:p-0 p-6 xl:shadow-none md:shadow-none lg:shadow-none shadow   lg:mt xl:mb-0  md:mb-0 lg:mb-0   mb-10      ">
                             <Link href={"/syllabus"}>
                                 <div className="relative mx-auto ">
@@ -73,7 +73,7 @@ export const Programstudies = () => {
                                 </div>
                             </Link>
                         </div>
-                        <div className="  md:max-h-none lg:max-h-none xl:max-h-none  lg:border-none xl:border-none border rounded-lg md:border-none  xl:-mt-[340px]  xl:-top-20 lg:-mt-80 lg:py-8 px-6 2xl:  xl:ml-[72%]   lg:ml-96 md:ml-96 md:-mt-60 md:px-10   xl:p-0 lg:p-0  md:p-0 p-6 xl:shadow-none md:shadow-none lg:shadow-none shadow   lg:mt xl:mb-0  md:mb-0 lg:mb-0   mb-10  ">
+                        <div className="  md:max-h-none lg:max-h-none xl:max-h-none  lg:border-none xl:border-none border rounded-lg md:border-none  xl:-mt-[360px]  xl:-top-20 lg:-mt-80 lg:py-8 px-6 2xl:  xl:ml-[72%]   lg:ml-96 md:ml-96 md:-mt-60 md:px-10   xl:p-0 lg:p-0  md:p-0 p-6 xl:shadow-none md:shadow-none lg:shadow-none shadow   lg:mt xl:mb-0  md:mb-0 lg:mb-0   mb-10  ">
                             <a href="/salybus">
                                 <div className="relative group ">
                                     <h3 className="text-18 font-bold  ">Quarter III</h3>
