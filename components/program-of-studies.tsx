@@ -1,25 +1,25 @@
 'use client';
 import Link from 'next/link';
 import React from 'react'
-const Fade = require("react-reveal/Fade")
+import { RevealWrapper } from  'next-reveal'  
 
 export const Programstudies = () => {
     return (
         <div className='mx-auto w-full bg-white   xl:py-10'>
             <div className="px-4 xl:mt-40 mt-14 justify-start ">
                 <div>
-                    <Fade left>
+                <RevealWrapper origin='left' delay={200} duration={1000} distance='500px' reset={true}>
+        
                     <p className='font-bold  text-[#6e225f] '>Program of Studies</p>
                     <h2 className='  md:text-4xl text-3xl max-w-8xl  mx-auto  font-bold mb-4'>Core Courses
                         <br/>(Common in All Specializations)
                     </h2>
                     <p className='text-[#6e225f] max-w-6xl mb-4  '>Every participant of the program will start by completing the following three core courses.</p>
                     <Link href={'https://portal.piaic.org/'} className='bg-[#6e225f] rounded-full text-white  px-6 p-3 font-bold'>Enroll Now</Link>
-                    </Fade>
+                    </RevealWrapper>
          </div>
                 <div className=" lg:-mt-20 lg-2:-mt-20   xl:-mt-[200px]  md:block lg:block">
-                    {/* <div className="h-80 w-80 bg-primary opacity-50 rounded-full    mix-blend-overlay   mt -94  "></div> */}
-                    <div className=" lg:bolck xl:flex md:flex hidden  w-full -z-10 pr-36">
+                     <div className=" lg:bolck xl:flex md:flex hidden  w-full -z-10 pr-36">
                         <svg className="h-full w-full " width="1071" height="470" viewBox="0 0 1071 470" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g filter="url(#filter0_d_0_1)">
                                 <path d="M27 332C75 367 186.8 433 250 417C329 397 348.5 294 470.5 270C592.5 246 682 329.5 776.5 209C871 88.5002 912 26.5002 1044 26.5002" stroke="url(#paint0_linear_0_1)" stroke-opacity="0.8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" shape-rendering="crispEdges"></path>

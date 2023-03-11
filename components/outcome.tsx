@@ -3,8 +3,8 @@ import React from 'react'
 import Image from 'next/image'
 import {CgCheck} from 'react-icons/cg' 
 import outcome from '../public/outcome-poster.jpg'
-const Fade = require("react-reveal/Fade")
-const Zoom = require("react-reveal/Zoom")
+
+import { RevealWrapper } from  'next-reveal'  
 export const Outcome = () => {
 
     return (
@@ -12,14 +12,14 @@ export const Outcome = () => {
             <div className='mx-auto px-4 justify-between grid md:grid-cols-2 '>
 
                 <div>
-                    <Zoom>
+                <RevealWrapper delay={200} duration={1000} distance='500px' reset={true}>
                         <Image src={outcome}
                             className=" "
                             alt="outcome"/>
-                    </Zoom>
+                    </RevealWrapper>
                 </div>
                 <div className=' '>
-                    <Fade>
+                <RevealWrapper delay={200} duration={1000} distance='500px' reset={true}>
                         <h1 className='md:text-4xl headline text-xl md:max-w-lg font-bold mb-6 '>
 
                             The Outcome for Participants of the Program
@@ -40,7 +40,7 @@ export const Outcome = () => {
                             <span className='flex md:text-lg text-sm gap-4 max-w-7xl'>
                                 <span className='p-2 rounded-lg  h-8 w-7   rotate-45 bg-gradient-to-b from-[rgb(122,208,220)]  to-[#639fa9] '><CgCheck className="text-white  md:text-lg text-sm font-bold -rotate-45"/></span>Boosting Economy.</span>
                         </div>
-                    </Fade>
+                    </RevealWrapper>
                 </div>
             </div>
         </div>

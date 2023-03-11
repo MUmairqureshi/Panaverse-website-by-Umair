@@ -9,8 +9,8 @@ import genomics from '../public/genomics.jpg'
 import {AiOutlineArrowRight} from 'react-icons/ai';
 import network from '../public/network.jpg'
 import Link from 'next/link';
-const Fade = require("react-reveal/Fade")
 
+import { RevealWrapper } from  'next-reveal'  
 export const Specializedtracks = () => {
     const [tabs, setTabs] = useState(1)
     const changtab = (index : any) => {
@@ -20,12 +20,12 @@ export const Specializedtracks = () => {
         <div className='mx-auto w-full h-full py-10 mt-32'>
             <div className='px-4     mx-auto  justify-between'>
                 <div>
-                    <Fade left>
+                <RevealWrapper origin='left' delay={200} duration={1000} distance='500px' reset={true}>
                         <h2 className='md:text-4xl text-2xl font-bold  mb-4'>Specialized Tracks:</h2>
                         <p className='max-w-xl mb-6 text-[#6e225f]'>After completing the first three quarters the participants will select one or more
                       
                         specializations consisting of two courses each.</p>
-                          </Fade>
+                          </RevealWrapper>
                 </div>
 
                 <div className='grid md:gap-4   la  md:grid-cols-2  lg:grid-cols-3  p-4 lg:gap-4'>
@@ -73,9 +73,9 @@ export const Specializedtracks = () => {
                         <p className='text-[#6e225f]  max-w-3xl   justify-start  md:text-lg text-sm  flex  mb-4'>The AI and Deep Learning specialization 
                                                     focuses on building and deploying intelligent APIs using OpenAI models
                                                      and building custom Deep Learning Tensorflow models.</p>
-                        <Link href={"/syllabus"} className="text-[#832a71] gap-2 flex mb-8 bg-white border font-bold p-2 px-4 rounded-lg border-[#832a71] ">
+                                                     <Link href={"/syllabus"} className="transition ease-in-out delay-150 hover:-translate-y-1  hover:scale-110     hover:bg-[#cd82be]   text-[#832a71] gap-2 md:max-w-[150px] max-w-[154px] flex  mb-8 bg-white border font-bold p-2 px-4 rounded-lg border-[#832a71] ">
                             Learn More
-                            <AiOutlineArrowRight className='  text-center mt-1  font-bold'/>
+                            <AiOutlineArrowRight className=' transition ease-in-out delay-150 hover:-translate-x-1  hover:scale-110 text-center mt-1  font-bold'/>
                         </Link>
                         <div className='md:flex justify-between gap-2 mx-auto mb-10 '>
                             <span className='mb-18  '>

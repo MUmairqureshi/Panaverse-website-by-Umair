@@ -1,9 +1,7 @@
 'use client';
 import React, {useState} from 'react'
 import Script from 'next/script'
-
-import {AiFillHtml5} from "react-icons/ai"
-import Link from 'next/link';
+ 
 export const Couredetail = () => {
     const [toggleState, setToggleState] = useState(1);
 

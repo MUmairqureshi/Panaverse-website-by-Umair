@@ -25,7 +25,7 @@ export const Header = () => {
                                 </li>
  
                     </div>
-                    <div className='list-none gap-7 text-xl flex '>
+                    <div className='list-none text-[#6e225f] gap-7 text-xl flex '>
 
                         <Link href={"/"}>
                             <li>

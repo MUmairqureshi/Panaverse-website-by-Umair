@@ -4,8 +4,7 @@ import Image from 'next/image'
 import banner from '../public/hero-poster.jpg'
 import Link from 'next/link';
  
-const Fade = require("react-reveal/Fade")
-const Zoom = require("react-reveal/Zoom")
+import { RevealWrapper } from  'next-reveal'  
 export const Hero = () => {
     return (
         <div className='mx-auto bg-white'>
@@ -13,7 +12,7 @@ export const Hero = () => {
 
             <div className='grid px-4 justify-between mt-14 gap-481 md:mt-[126px] md:grid-cols-2'>
                 <div className='justify-start'>
-                    <Fade left>
+                <RevealWrapper origin='left' delay={200} duration={1000} distance='500px' reset={true}>
                         <h2 className="md:text-md text-sm mb-2 text-[#6e225f] font-bold">
                             Presidential Initiative for Artificial Intelligence and Computing (PIAIC)
                         </h2>
@@ -28,14 +27,14 @@ export const Hero = () => {
                         <Link className="rounded-fullbg-[#892d76]px-6p-3text-xltext-whitefont-bold" href={"/syllabus"}>
                             Learn More
                         </Link>
-                    </Fade>
+                    </RevealWrapper>
                 </div>
                 <div className=" ">
-                    <Zoom>
+                    <RevealWrapper   delay={200} duration={1000} distance='500px' reset={true}>
                         <Image src={banner}
                             alt="banner"
                             className='w-8xl  xl:-mt-20 lg:-mt-20 mt-8  '/>
-                    </Zoom>
+                    </RevealWrapper>
                 </div>
             </div>
 
