@@ -31,7 +31,7 @@ export default function Salybu() {
                         </RevealWrapper>
                     </div>
 
-                    <div className='   lg:-mt-14 md:mt-10'>
+                    <div className='      lg:-mt-20 md:mt-10'>
                         <RevealWrapper delay={200}
                             duration={1000}
                             distance='500px'
