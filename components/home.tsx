@@ -24,7 +24,7 @@ export const Hero = () => {
                                    Intelligence (AI), Cloud, Edge, 
                                                 Ambient Computing/IoT, Network Automation, 
                                                 and Bioinformatics Technologies</h1>
-                        <Link className="rounded-fullbg-[#892d76]px-6p-3text-xltext-whitefont-bold" href={"/syllabus"}>
+                        <Link className="rounded-full  bg-[#892d76] px-6 p-3 text-xl text-white font-bold" href={"/syllabus"}>
                             Learn More
                         </Link>
                     </RevealWrapper>

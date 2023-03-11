@@ -14,7 +14,7 @@ export const Footer = () => {
     return (
         <div className='mt-20    border-t-2 py-10  bg-white mx-auto w-full h-full '>
             <div className='grid md:grid-cols-4  gap-8 w-full mt-4 list-none  justify-between mx-auto px-4 '>
-                <div className='md:col-span-2 grid-rows-3 px-4 '>
+                <div className='md:col-span-2 grid-rows-3 md:px-4 '>
                     <span>
                         <Image src={logoimage}
                             className="mb-6 max-w-[140px]"
