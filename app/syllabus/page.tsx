@@ -26,12 +26,12 @@ export default function Salybu() {
 
                             </p>
                             <Link href={'https://portal.piaic.org/'}
-                                className='text-white bg-[#ffdfedb1] rounded-full font-semibold px-6 p-2 '>Enroll Now
+                                className='text-white bg-[#ffdfedb1] rounded-full font-semibold px-6 p-3 '>Enroll Now
                             </Link>
                         </RevealWrapper>
                     </div>
 
-                    <div className='   lg:mt-0 md:mt-10'>
+                    <div className='   lg:-mt-14 md:mt-10'>
                         <RevealWrapper delay={200}
                             duration={1000}
                             distance='500px'
